@@ -1,12 +1,12 @@
-import "./styles.css";
-import List from "./List";
+import React from 'react'
+import Event from './components/Event'
 
-export default function App() {
-  const items = ["Item 1", "Item 2", "Item 3"];
+const App = () => {
   return (
-    <div className="App">
-      <List layout="numbered" items={items} />
-      <List layout="bulleted" items={items} />
+    <div>
+        <Event/>
     </div>
-  );
+  )
 }
+
+export default App;
