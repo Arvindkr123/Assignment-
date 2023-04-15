@@ -1,31 +1,30 @@
 .image {
     height: auto;
     transition: all 0.5s;
-  }
-  
-  .image:hover {
+}
+
+.image:hover {
     transform: scale(1.2);
-  }
-  
-  .button {
+}
+
+.button {
     padding: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .input {
+}
+
+.input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .paragraph {
+}
+
+.paragraph {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     min-height: 100px;
-  }
-  
+}

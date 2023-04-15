@@ -5,7 +5,7 @@ function App() {
     const [imgSize, setImgSize] = useState(200);
 
     const handleImgHover = () => {
-        setImgSize(240);
+        setImgSize(300);
     };
 
     const handleImgMouseOut = () => {
